@@ -1,0 +1,51 @@
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light .search-input {
+    border: 2px solid #AFB2B6;
+    color: #AFB2B6;
+}
+
+.dark .search-input {
+    background-color: #323537;
+}
+
+.light .drop-down-button-open {
+    color: #AFB2B6;
+}
+
+.light .drop-down-button {
+    color: #AFB2B6;
+}
+
+.light .input {
+    border: 2px solid #AFB2B6;
+    color: #AFB2B6;
+}
+
+.dark .input {
+    background-color: #323537;
+}
+
+.dark .form-sign-in {
+    background-color: #242426;
+}
+
+.dark .form-sign-up {
+    background-color: #242426;
+}
+
+.dark .form__title {
+    background-color: #242426;
+}
+
+.dark .form-reset {
+    background-color: #242426;
+}

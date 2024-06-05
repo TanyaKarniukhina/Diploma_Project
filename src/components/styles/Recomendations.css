@@ -1,0 +1,99 @@
+.recomendations-container {
+    width: 100%;
+    background-color: black;
+    width: auto;
+}
+
+.recomendations {
+    padding-left: 307px;
+    padding-right: 60px;
+}
+
+.first-container {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.title {
+    margin: 0px;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.flip-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-arrow {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+.forward-arrow {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    text-decoration: none; 
+}
+
+.movie-card-recomendations {
+    margin: 0px;
+    width: 266px;
+    margin-right: 20px;
+}
+
+.movie-card-recomendations__poster {
+    width: 266px;
+    height: 356px;
+    border-radius: 20px;
+}
+
+.movie-card-recomendations__title {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.movie-card-recomendations__genres {
+    color: #AFB2B6;
+}
+
+.movie-rating-recomendations__rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 28px;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00A340;
+    color: white;
+    margin: 25px;
+    z-index: 2;
+}
+
+.flip-buttons-container .back-arrow:disabled,
+.flip-buttons-container .forward-arrow:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

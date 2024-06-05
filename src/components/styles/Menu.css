@@ -1,0 +1,129 @@
+.menu {
+    width: 366px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 152px);
+    background-color: black;
+    width: 366px;
+    position: fixed;
+}
+
+.menu-options {
+    padding-left: 62px;
+}
+
+.menu-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-option-icon {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-option-icon__pic {
+    color: #80858B;
+    width: 24px;
+    height: 24px;
+}
+
+.menu-option__text {
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 18px;
+}
+
+.menu-all-rights-reserved {
+    padding-left: 62px;
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+
+
+
+.theme-button {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    top: 20px;
+}
+
+.theme-button svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-out;
+}
+
+.theme-button .sun-icon {
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    opacity: 1;
+    color: #80858B; 
+}
+
+.theme-button .moon-icon {
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    opacity: 0;
+    color: #7B61FF;
+}
+
+.theme-button.dark .sun-icon {
+    opacity: 1;
+}
+
+.theme-button.dark .moon-icon {
+    opacity: 0;
+}
+
+.theme-button.active {
+    border-color: #7B61FF; 
+}
+
+.theme-button.active .sun-icon {
+    opacity: 0;
+}
+
+.theme-button.active .moon-icon {
+    opacity: 1;
+}
+
+.menu-option:hover .menu-option-icon__pic,
+.menu-option:hover .menu-option__text {
+    color: #917CFF; 
+}
+
+.menu-option:active .menu-option-icon__pic,
+.menu-option:active .menu-option__text {
+    color: #7B61FF; 
+}
+
+.menu-option:focus .menu-option-icon__pic,
+.menu-option:focus .menu-option__text {
+    color: #7B61FF; 
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+}

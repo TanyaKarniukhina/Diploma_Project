@@ -1,0 +1,123 @@
+.movie-list-container {
+    background-color: black;
+    width: calc(100% - 150px);
+}
+
+.movie-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+    align-items: flex-start;
+    justify-items: center;
+    background-color: black;
+}
+
+.movie-card {
+    height: 433px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.movie-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 28px;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00A340;
+    color: white;
+    top: 10px;
+    left: 22px;
+}
+
+.movie-poster {
+    width: 236px;
+    height: 327px;
+    border-radius: 20px;
+}
+
+.movie-title {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    width: 236px;
+}
+
+.movie-genres {
+    color: #AFB2B6;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.show-more-button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #AFB2B6;
+    border-radius: 30px;
+}
+
+.show-more-button {
+    padding: 8px 24px 8px 24px;
+    border-radius: 40px;
+    background-color: #323537;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: transparent;
+    margin-bottom: 70px;
+}
+
+.show-more-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+
+.error {
+    width: calc(100% - 150px);
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-list-container {
+        background-color: black;
+        width: 100%;
+    }
+    
+    .movie-card {
+        margin-right: 0px;
+    }
+
+    .movie-list {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+}

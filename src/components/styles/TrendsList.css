@@ -1,0 +1,96 @@
+.trends-list-container {
+    background-color: black;
+    width: calc(100% - 150px);
+    height: 100%;
+}
+
+.trends-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+    align-items: flex-start;
+    justify-items: center;
+    background-color: black;
+}
+
+.trends-movie-card {
+    height: 433px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.trends-movie-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 28px;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #7B61FF;
+    color: white;
+    top: 10px;
+    left: 22px;
+}
+
+.trends-movie-poster {
+    width: 236px;
+    height: 327px;
+    border-radius: 20px;
+}
+
+.trends-movie-title {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    width: 236px;
+}
+
+.trends-movie-genres {
+    color: #AFB2B6;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trends-page__pic {
+    width: 18px;
+    height: 18px;
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .trends-list-container {
+        background-color: black;
+        width: 100%;
+    }
+    
+    .trends-movie-card {
+        margin-right: 0px;
+    }
+
+    .trends-movie-list {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+}

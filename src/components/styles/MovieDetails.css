@@ -1,0 +1,151 @@
+.details-container {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 56px;
+}
+
+.details {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+.poster-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 42px;
+}
+
+.poster {
+    width: 266px;
+    height: 356px;
+    border-radius: 20px;
+}
+
+.reaction-buttons {
+    display: flex;
+    background-color: #323537;
+    border-radius: 10px;
+    width: 266px;
+    margin-top: 32px;
+}
+
+.favorites-button {
+    width: 133px;
+    height: 56px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #323537;
+} 
+
+.favorites-button__pic {
+    width: 24px;
+    height: 24px;
+    color: #AFB2B6;
+}
+
+.share-button {
+    width: 133px;
+    height: 56px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #323537;
+}
+
+.share-button__pic {
+    width: 24px;
+    height: 24px;
+    color: #AFB2B6;
+}
+
+.button-separator {
+    width: 1px;
+    background-color: black;
+}
+
+.movie-info__genres {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    color: #AFB2B6;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+.movie-info__title {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.movie-info-box {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.movie-info-box__rating {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 28px;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00A340;
+    margin-right: 16px;
+}
+
+.movie-info-box__runtime {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 73px;
+    height: 28px;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #323537;
+}
+
+.movie-info__plot {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 40px;
+    width: 878px;
+}
+
+.movie-info__details {
+    color: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+}
+
+.caption {
+    color: #AFB2B6;
+    width: 136px;
+    margin: 0px;
+}

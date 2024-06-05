@@ -1,0 +1,97 @@
+.sign-up-container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-sign-up-container {
+    padding: 48px 0px 60px 62px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form__title {
+    font-family: 'Exo 2';
+    width: 546px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+
+.forgot-password {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+    color: #8D8E97;
+    margin-bottom: 50px;
+}
+
+.form-sign-up {
+    padding: 40px;
+    background-color: #242426;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.button-primary {
+    width: 546px;
+    font-family: 'Exo 2';
+    border-radius: 20px;
+}
+
+.sign-up-input {
+    font-family: 'Exo 2';
+    width: 546px;
+    height: 456px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-up-password {
+    font-family: 'Exo 2';
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-account {
+    font-family: 'Exo 2';
+    margin: 24px 0px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D8E97; 
+}
+
+.sign-in-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #7B61FF; 
+}
+
+.loading-form {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+}

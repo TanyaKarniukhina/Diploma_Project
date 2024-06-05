@@ -1,0 +1,31 @@
+.input {
+    display: flex;
+    align-items: center;
+    width: 524px;
+    height: 56px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    background-color: #323537;
+    color: #80858B;
+    font-family: 'Exo 2';
+}
+
+.inputlabel {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 56px;
+}
+
+.error {
+    font-size: 16px;
+    margin: 8px 0px 16px;
+    color: #FD3419;
+}
+
+input:disabled {
+    background: #E8E8E8;
+}

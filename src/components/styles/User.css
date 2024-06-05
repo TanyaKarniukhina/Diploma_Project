@@ -1,0 +1,376 @@
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 264px;
+}
+
+.user-initials {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 264px;
+}
+
+.non-authenticated-user-icon {
+    background-color: #7B61FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authenticated-user-initials {
+    background-color: #7B61FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.non-authenticated-user-icon__pic {
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    padding: 16px;
+}
+
+.non-authenticated-user-text {
+    color: #FFFFFF;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.non-authenticated-user {
+    display: flex;
+    height: 56px;
+}
+
+.authenticated-user {
+    display: flex;
+    height: 56px;
+}
+
+.username {
+    color: #FFFFFF;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.drop-down-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-down-list {
+    display: flex;
+    background-color: black;
+    border: black;
+    position: relative;
+}
+
+.drop-down-options-list {
+    position: absolute;
+    top: 80px;
+    right: -2px;
+    border-radius: 10px;
+    background-color: #242426;
+    color: white;
+    width: 267px;
+}
+
+.drop-down-options {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.drop-down-option {
+    background-color: #242426;
+    color: white;
+    padding: 17px 0px 17px 20px;
+    display: flex;
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.option-separator {
+    height: 2px;
+    background-color: #323537;
+}
+
+.drop-down-button {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: #AFB2B6;
+}
+
+.drop-down-button-open {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: white;
+}
+
+
+.drop-down-option:hover {
+    color: #917CFF;
+}
+
+
+.drop-down-option:active {
+    color: #7B61FF; 
+}
+
+
+
+.menu-mobile {
+    width: 366px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 152px);
+    background-color: black;
+    width: 366px;
+    position: fixed;
+}
+
+.menu-options {
+    padding-left: 62px;
+}
+
+.menu-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-option-icon {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-option-icon__pic {
+    color: #80858B;
+    width: 24px;
+    height: 24px;
+}
+
+.menu-option__text {
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 18px;
+}
+
+.menu-all-rights-reserved {
+    padding-left: 62px;
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+
+
+
+.theme-button {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    top: 20px;
+}
+
+.theme-button svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-out;
+}
+
+.theme-button .sun-icon {
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    opacity: 1;
+    color: #80858B; 
+}
+
+.theme-button .moon-icon {
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    opacity: 0;
+    color: #7B61FF;
+}
+
+.theme-button.dark .sun-icon {
+    opacity: 1;
+}
+
+.theme-button.dark .moon-icon {
+    opacity: 0;
+}
+
+.theme-button.active {
+    border-color: #7B61FF; 
+}
+
+.theme-button.active .sun-icon {
+    opacity: 0;
+}
+
+.theme-button.active .moon-icon {
+    opacity: 1;
+}
+
+.menu-option:hover .menu-option-icon__pic,
+.menu-option:hover .menu-option__text {
+    color: #917CFF; 
+}
+
+.menu-option:active .menu-option-icon__pic,
+.menu-option:active .menu-option__text {
+    color: #7B61FF; 
+}
+
+.menu-option:focus .menu-option-icon__pic,
+.menu-option:focus .menu-option__text {
+    color: #7B61FF; 
+}
+
+
+
+
+
+
+.drop-down-mobile-option {
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 18px;
+    padding: 17px 0px 17px 20px;
+    display: flex;
+    font-family: 'Exo 2';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 62px;
+}
+
+.drop-down-mobile-option:hover {
+    color: #917CFF;
+}
+
+
+.drop-down-mobile-option:active {
+    color: #7B61FF; 
+}
+
+.option-mobile-separator {
+    height: 2px;
+    background-color: #242426;
+    margin: 10px 0px;
+}
+
+.drop-down-options-list-mobile {
+    position: absolute;
+    top: 80px;
+    right: 2px;
+    border-radius: 10px;
+    background-color: #242426;
+    color: white;
+    width: 267px;
+}
+
+.menu-mobile-container {
+    position: absolute;
+    top: 138px;
+    right: 0px;
+    border-radius: 10px;
+    background-color: #242426;
+    color: white;
+    width: 267px;
+}
+
+.menu-mobile-all-rights-reserved {
+    padding-left: 62px;
+    color: #80858B;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 34px;
+    padding-top: 80px;
+}
+
+.drop-down-mobile-options {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.burger-icon {
+    background-color: #7B61FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+.burger-icon:active {
+    background-color: #917CFF;
+}
+
+.burger-icon__pic {
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    padding: 16px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .user-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70px;
+    }
+}

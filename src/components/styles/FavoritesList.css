@@ -1,0 +1,138 @@
+.favorites-list-container {
+    background-color: black;
+    width: calc(100% - 150px);
+    height: 100%;
+}
+
+.favorites-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+    align-items: flex-start;
+    justify-items: center;
+    background-color: black;
+}
+
+.favorite-movie {
+    height: 433px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.movie-favorite-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 28px;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #00A340;
+    color: white;
+    top: 10px;
+    left: 22px;
+}
+
+.movie-favorite-poster {
+    width: 236px;
+    height: 327px;
+    border-radius: 20px;
+}
+
+.movie-favorite-title {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    width: 236px;
+}
+
+.movie-favorite-genres {
+    color: #AFB2B6;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sign-up-favorites {
+    background-color: black;
+    width: calc(100% - 150px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.favorites-page-button__pic {
+    width: 18px;
+    height: 18px;
+    color: #7B61FF;
+}
+
+.favorites-page-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 28px;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #323537;
+    top: 25px;
+    left: 177px;
+    border: #323537;
+}
+
+.empty-favorites {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .favorites-list-container {
+        background-color: black;
+        width: 100%;
+    }
+    
+    .favorite-movie {
+        margin-right: 0px;
+    }
+
+    .favorites-movie-list {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    .sign-up-favorites {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: white;
+        font-family: 'Exo 2';
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
