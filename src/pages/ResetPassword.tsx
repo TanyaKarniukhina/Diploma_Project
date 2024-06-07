@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './styles/ResetPassword.css';
-import background from '../image/background.svg';
+import background from '../image/background.png';
 import logo from '../image/pixema.svg';
 import Input from '../components/Input';
 import Button from '../components/Button';

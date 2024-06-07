@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate, Link } from 'react-router-dom';
 import Input from '../components/Input';
 import Button from '../components/Button';
-import background from '../image/background.svg';
+import background from '../image/background.png';
 import logo from '../image/pixema.svg';
 import { setUser } from '../redux/UserSlice';
 import './styles/SignIn.css';

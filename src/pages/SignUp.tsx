@@ -4,7 +4,7 @@ import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase
 import { useDispatch } from 'react-redux';
 import Input from '../components/Input';
 import Button from '../components/Button';
-import background from '../image/background.svg';
+import background from '../image/background.png';
 import logo from '../image/pixema.svg';
 import { setUser } from '../redux/UserSlice';
 import './styles/SignUp.css';
